@@ -1,5 +1,5 @@
 # DSLR camera x barcode imaging guide
-Control a Sony A7RII camera (normal DSLR camera) from a Windows computer and integrate with barcode scanning to image some artifacts at higher throughput / productivity.
+Control a Sony A7RII camera (normal DSLR camera) from a Windows computer and integrate with barcode scanning to image some artifacts at higher throughput / productivity. Suppose you had barcode or QR code labels for each of your artifacts (plants, in our case). This guide will allow you to set the filename of each image as the value scanned from the label.
 
 # Hardware
 - Sony A7RII camera
