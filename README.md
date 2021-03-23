@@ -56,7 +56,7 @@ The way we can do this is by programming the scanner to have backspaces and dele
 
 4. Test that this works by clicking anywhere into the textbox with preexisting text, scan something new, and ensure that the old text has been replaced with the new text. 
 
-The excessive back spaces ensure any characters to the left of your cursor are removed, and the excessive Dels ensure any characters to the right of your cursor are removed. 30 times for each (for a total of a 60-char prefix) may possibly be too long for the REALINN scanner to handle, so you may want to do less or play around with these configurations. Refer to the manual for more information or to reset your scanner's configuration programming. 
+The excessive back spaces ensure any characters to the left of your cursor are removed, and the excessive Dels ensure any characters to the right of your cursor are removed. 30 times for each (for a total of a 60-char prefix) may possibly be too long for the REALINN scanner to handle, so you may want to do less or play around with these configurations. Refer to the [manual](https://github.com/Salk-Harnessing-Plants-Initiative/DSLR-barcode-imaging-guide/blob/main/RL6200W%20Manual%20V1.0.pdf) for more information or to reset your scanner's configuration programming. 
 
 
 # Alternative camera control software (Windows or MacOS)
@@ -64,3 +64,9 @@ We didn't have time to explore this, but you may want to consider Sony Imaging E
 
 - Sony Imaging Edge Desktop: https://imagingedge.sony.net/en-us/ie-desktop.html
 - Helpful video, especially steps required to configure your camera: https://www.youtube.com/watch?v=NCbt7GujmE4
+
+
+# And how do we make QR code labels in our lab?
+We use a BradyID labelprinter and import via spreadsheet in the label printing software. It's a lot like Avery address label printing if you've every had to mail out holiday cards. You can pick the column you want to encode into the QR code or barcode. 
+
+See an example spreadsheet [here](https://github.com/Salk-Harnessing-Plants-Initiative/DSLR-barcode-imaging-guide/blob/main/example_spreadsheet_for_printing_labels.xlsx).
