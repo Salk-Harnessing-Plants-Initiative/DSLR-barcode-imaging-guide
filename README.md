@@ -36,6 +36,7 @@ What you should do is click into this area as if you were about to type some tex
 
 Presumably it would be on some label you printed. Now push capture. And that's it! You should be able to see the file saved on your computer with its name as what you scanned. 
 
+
 # Programming the REALINN scanner
 You'll notice that every time you have to take a new picture you will need to delete the "Capture Name" before scanning your new code. If you're using the REALINN brand scanner, you can program it to automatically delete all of the preexisting text in the textbox before it enters your scanned value. 
 
@@ -57,5 +58,9 @@ The way we can do this is by programming the scanner to have backspaces and dele
 
 The excessive back spaces ensure any characters to the left of your cursor are removed, and the excessive Dels ensure any characters to the right of your cursor are removed. 30 times for each (for a total of a 60-char prefix) may possibly be too long for the REALINN scanner to handle, so you may want to do less or play around with these configurations. Refer to the manual for more information or to reset your scanner's configuration programming. 
 
+
 # Alternative camera control software (Windows or MacOS)
-We didn't have time to explore this, but you may want to consider Sony Imaging Edge Desktop as an alternative to Digicam if you have issues. Sony Imaging Edge Desktop is available on both Windows and MacOS. As a plus, it's capable of using a USB connection (microUSB to USB) rather than only Wifi, so your Internet connection isn't tied up. See: https://www.youtube.com/watch?v=NCbt7GujmE4
+We didn't have time to explore this, but you may want to consider Sony Imaging Edge Desktop as an alternative to Digicam if you have issues. Sony Imaging Edge Desktop is available on both Windows and MacOS. As a plus, it's capable of using a USB connection (microUSB to USB) rather than only Wifi, so your Internet connection isn't tied up. 
+
+- Sony Imaging Edge Desktop: https://imagingedge.sony.net/en-us/ie-desktop.html
+- Helpful video, especially steps required to configure your camera: https://www.youtube.com/watch?v=NCbt7GujmE4
