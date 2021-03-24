@@ -5,6 +5,7 @@ Control a Sony A7RII camera (normal DSLR camera) from a Windows computer and int
 - Sony A7RII camera
 - Windows computer
 - Handheld barcode or QR code scanner. We use this one: https://www.amazon.com/REALINN-Wireless-Rechargeable-Automatic-Warehouse/dp/B07W5Q48M5/
+- microUSB to USB cable (optional). For charging the camera, or in the case of Sony Imaging Edge Desktop, to connect to it
 
 # Original guide (with DigiCam)
 
